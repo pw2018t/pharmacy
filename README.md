@@ -26,7 +26,12 @@ To execute the script:
     2.) Go to the pharmacy directory
        cd pharmacy
        
-    3.) run the script with the below command
+    3.) To test the large file place the new file under input folder
+    
+    4.) provide the large input file location with filename in run.sh script and output location and filename.
+      ./src/pharmacy_sales_summary.py {input file location/filename} {output file location/filename}
+    
+    5.)run the script with the below command
         bash run.sh
 
 
